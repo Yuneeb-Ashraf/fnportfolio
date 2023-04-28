@@ -1,0 +1,81 @@
+nav {
+    position: relative;
+}
+
+.home {
+    margin: 0;
+    padding: 5rem 0 0 0;
+}
+
+.container {
+    margin: 2rem 0;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.home-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0;
+}
+
+#resume-avatar {
+    width: 12rem;
+    height: 12rem;
+    border-radius: 6rem;
+    border: 10px inset black;
+}
+
+#name {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 3rem;
+    font-weight: bold;
+    color: #0B2447;
+}
+
+#profession {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    color: #444444;
+}
+
+.links-anchors {
+    padding: .5rem;
+}
+
+.icons {
+    width: 3rem;
+}
+
+@media (max-width: 858px) {
+    ul {
+        height: 92vh;
+    }
+
+    .container {
+        width: 100%;
+        height: calc(var(--vh, 1vh) * 60);
+
+    }
+
+    #resume-avatar {
+        width: 8rem;
+        height: 8rem;
+        border-radius: 5rem;
+    }
+
+    #name {
+        font-size: 2rem;
+    }
+
+    #profession {
+        font-size: 1rem;
+    }
+}
